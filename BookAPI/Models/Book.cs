@@ -1,7 +1,12 @@
-﻿namespace BookAPI.Models
+﻿
+
+using System.ComponentModel.DataAnnotations;
+
+namespace BookAPI.Models
 {
     public class Book
     {
+   
         public int Id { get; set; }
         public string BookName { get; set; }
         public string BookTitle { get; set; }
